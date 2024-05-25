@@ -3,8 +3,6 @@ package codingtest.inoutput;
 import java.util.Scanner;
 
 /**
- * 2024.05.20
- *
  * 백준 10926번
  * ??!
  */
