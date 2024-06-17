@@ -1,4 +1,4 @@
-package codingtest.Repetition;
+package codingtest.repetition;
 
 import java.util.Scanner;
 
