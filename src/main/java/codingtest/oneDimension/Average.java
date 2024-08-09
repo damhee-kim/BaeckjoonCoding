@@ -24,21 +24,27 @@ public class Average {
 //            출력
 //            첫째 줄에 새로운 평균을 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-2 이하이면 정답이다.
 
-            Scanner in = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
 
-            double arr[] = new double[in.nextInt()];
+            int n = sc.nextInt();
+            double score[] = new double[n];
+            double avg, max = 0,sum = 0;
 
-            for(int i = 0; i < arr.length; i++) {
-                arr[i] = in.nextDouble();
+            for(int i=0;i<score.length;i++) {
+                score[i] = sc.nextInt();
+
+                if(score[i]>max)
+                    max = score[i];
             }
-            in.close();
 
-            double sum = 0;
-            Arrays.sort(arr);
-
-            for(int i = 0; i < arr.length; i++) {
-                sum += ((arr[i] / arr[arr.length-1]) * 100);
+            for(int i=0;i<score.length;i++) {
+                score[i] = (score[i]/max)*100;
+                sum += score[i];
             }
-            System.out.print(sum / arr.length);
+            sc.close();
+
+            avg = sum / n;
+
+            System.out.println(avg);
         }
     }
