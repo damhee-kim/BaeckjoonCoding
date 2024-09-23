@@ -20,7 +20,7 @@ public class MeasureWordLength {
 //        첫째 줄에 입력으로 주어진 단어의 길이를 출력한다.
 
         Scanner sc = new Scanner(System.in);
-        String t = sc.next();
+        java.lang.String t = sc.next();
 
         System.out.println(t.length());
     }
