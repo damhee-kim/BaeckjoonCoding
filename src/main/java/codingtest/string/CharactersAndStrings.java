@@ -1,7 +1,5 @@
 package codingtest.string;
 
-import codingtest.string.String;
-
 import java.util.Scanner;
 
 /**

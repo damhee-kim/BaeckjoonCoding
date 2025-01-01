@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 백준 9086
  * 문자열
  */
-public class String {
+public class StringTest {
 
     public static void main(String[] args) {
 //        문제
