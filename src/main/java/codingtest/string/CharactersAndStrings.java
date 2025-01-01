@@ -1,5 +1,7 @@
 package codingtest.string;
 
+import codingtest.string.String;
+
 import java.util.Scanner;
 
 /**
@@ -16,7 +18,7 @@ public class CharactersAndStrings {
          * S의 i번째 글자를 출력하는 프로그램을 작성하시오.
          */
         Scanner sc = new Scanner(System.in);
-        String t = sc.next();
+        java.lang.String t = sc.next();
         int n = sc.nextInt() - 1;
 
         System.out.println(t.charAt(n));
