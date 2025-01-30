@@ -1,4 +1,4 @@
-package codingtest.string;
+package codingtest.stringTest;
 
 /**
  * 백준 11654
