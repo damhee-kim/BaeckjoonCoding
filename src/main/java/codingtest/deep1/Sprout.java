@@ -1,4 +1,4 @@
-package codingtest.depth;
+package codingtest.deep1;
 
 /**
  * 백준 25083
